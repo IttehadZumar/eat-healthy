@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    background-color:rgba(255, 255, 255, 0.925);
 }
 h1{
     font-family: Montserrat;
@@ -23,7 +24,11 @@ p{
     font-family: poppins; 
     color: #696969;
 }
-
+footer{
+    background-color: black;
+    padding: 5%;
+    text-align: center;
+}
 .half-width{
     width: 50%; 
     padding-left: 5%; 
@@ -43,13 +48,37 @@ p{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size:100%;
-
 }
 
+.recipe{
+    margin-top: 5%;
+    display: flex;
+}
+.recipe-items{
+    box-shadow: 10px 10px 40px white;
+    
+}
 .chiki{
     margin-top: 10%;
 }
 
 #color{
     color:rgba(253, 103, 77, 0.863);
+}
+
+#third{
+    text-align: center;
+}
+#vau{
+    font-size: 25px;
+
+}
+.one-third{
+    width: 50%;
+    padding: 5%;
+}
+
+.current-nai{
+    display: flex;
+    margin-left: 10%;
 }
